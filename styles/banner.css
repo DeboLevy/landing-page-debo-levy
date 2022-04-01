@@ -12,15 +12,23 @@
 
  }
 
-.banner h1, .banner h2 {
-	text-shadow: 1px 1px 1px black; 
+h1{
+	margin-bottom: 570px;
+	font-family: 'Roboto bold';
+	color: white; 
+	position: center;
+	background-size: 0;
+}
 
+.banner h1, {
+	text-shadow: 1px 1px 1px black; 
 }
 
 .banner-fixed{
 	height: 20vh;
-	background-image: url('../images/banner.jpg');
+	background-image: url('../images/aurore.jpg');
 	margin: 48px 0;
+	
 	background-size: cover;
 	background-attachment: fixed;
 }
